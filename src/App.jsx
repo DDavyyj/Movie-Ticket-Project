@@ -24,7 +24,7 @@ const App = () => {
         <Route path='/movies:id/:date' element={<SeatLayout/>} />
         <Route path='/favorite' element={<Favorite />} />
       </Routes>
-        {!isAdminRoute && <Footer/>}
+      {!isAdminRoute && <Footer/>}
     </>
   )
 }
